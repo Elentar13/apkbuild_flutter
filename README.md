@@ -30,15 +30,15 @@ The purpose of `panik.bat` is to simplify the workflow for developers by automat
 1. **Flutter** installed and configured with the required dependencies for building Android apps.
 2. **Android SDK** installed, with `adb` (Android Debug Bridge) properly configured.
 3. Git installed and accessible through the command line.
-4. The app's package identifier (`com.exevio.kastapp`) and paths are correctly set in the script.
+4. The app's package identifier (`com.xxx.zzzz`) and paths are correctly set in the script.
 
 ### Usage
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-repository.git
-   cd your-repository
+   git clone https://github.com/your-repository.git](https://github.com/Elentar13/apkbuild_flutter.git
+   cd apkbuild_flutter
    ```
 
 2. Run the batch script:
@@ -76,7 +76,7 @@ The script will perform the following steps:
 
 ### License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Author
 
