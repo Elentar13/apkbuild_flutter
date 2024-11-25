@@ -1,16 +1,16 @@
-# Automated APK Build and Deployment Script
+# Panik: Automated APK Build and Deployment Script
 
-This repository contains a batch script designed to streamline the process of building and deploying APKs for Android applications using Flutter. The script automates branch switching, code pulling, APK building, and installation on connected devices.
+This repository contains `panik.bat`, a batch script designed to streamline the process of building and deploying APKs for Android applications using Flutter. The script automates branch switching, code pulling, APK building, and installation on connected devices.
 
 ## Project Overview
 
-The purpose of this script is to simplify the workflow for developers by automating the following tasks:
+The purpose of `panik.bat` is to simplify the workflow for developers by automating the following tasks:
 
 1. Switching to the desired Git branch and fetching the latest changes.
 2. Building an APK file for the specified development phase (development, production, or staging).
 3. Uninstalling any existing APK from a connected Android device and installing the newly built APK.
 
-## Script: `build_and_deploy.bat`
+## Script: `panik.bat`
 
 ### Features
 
@@ -36,16 +36,16 @@ The purpose of this script is to simplify the workflow for developers by automat
 
 1. Clone the repository:
 
-   \`\`\`bash
+   ```bash
    git clone https://github.com/your-repository.git
    cd your-repository
-   \`\`\`
+   ```
 
 2. Run the batch script:
 
-   \`\`\`cmd
-   build_and_deploy.bat
-   \`\`\`
+   ```cmd
+   panik.bat
+   ```
 
 3. Follow the prompts:
    - Enter the Git branch name to switch to (e.g., `main` or `feature-branch`).
@@ -53,10 +53,10 @@ The purpose of this script is to simplify the workflow for developers by automat
 
 ### Example
 
-\`\`\`cmd
+```cmd
 Enter branch designation: feature-update-ui
 Enter development phase (development/production/staging): production
-\`\`\`
+```
 
 The script will perform the following steps:
 - Switch to `feature-update-ui` branch and pull the latest changes.
