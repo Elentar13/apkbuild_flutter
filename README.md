@@ -37,7 +37,7 @@ The purpose of `panik.bat` is to simplify the workflow for developers by automat
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-repository.git](https://github.com/Elentar13/apkbuild_flutter.git
+   git clone https://github.com/Elentar13/apkbuild_flutter.git
    cd apkbuild_flutter
    ```
 
