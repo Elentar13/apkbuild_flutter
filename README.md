@@ -49,7 +49,7 @@ The purpose of `panik.bat` is to simplify the workflow for developers by automat
 
 3. Follow the prompts:
    - Enter the Git branch name to switch to (e.g., `main` or `feature-branch`).
-   - Enter the development phase (`development`, `production`, or `staging`).
+   - Enter the environment (`development`, `production`, or `staging`).
 
 ### Example
 
